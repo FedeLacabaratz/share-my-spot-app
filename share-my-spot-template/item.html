@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Buda:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>ShareMySpot - Item</title>
+</head>
+<body>
+    <div class="item">
+        <div class="header">
+            <header class="header__container">
+                <div id="mySidepanel" class="header__menu">
+                    <a href="javascript:void(0)" class="header__menu-close" onclick="closeNav()">X</a>
+                    <a href="#">New Search</a>
+                    <a href="#">Add a Listing</a>
+                    <a href="#">Your Listings</a>
+                    <a href="#">Manage Your Requests</a>
+                    <a href="#">Your Bookings</a>
+                </div>
+                <i onclick="openNav()" class="header__menu-open fas fa-bars"></i>
+                    <script>
+                    function openNav() {
+                    document.getElementById("mySidepanel").style.width = "250px";
+                    }
+                    
+                    function closeNav() {
+                    document.getElementById("mySidepanel").style.width = "0";
+                    }
+                    </script>
+                <div class="header__logo">
+                    <img src="./images/logo.png" alt="ShareMySpotLogo">
+                </div>     
+                <div class="header__account">
+                    <i class="header__account-logout fas fa-power-off"></i>
+                    <i class="header__account-user fas fa-user"></i>
+                </div>     
+            </header>
+        </div>
+        <div class="item__container" >
+            <main>
+                <img class="item__photo" src="https://fakeimg.pl/350x350/?text=Photos">
+                <h4 class="item__h4">Garage at Arenys St. 123, Sant Cugat del Valles</h4>
+                <h2 class="item__h2">12 €/per hour</h2><span>(*) See Conditions</span>
+                <div class="item__bottom">
+                    <i class="item__bottom-call fas fa-phone"></i>
+                    <i class="item__bottom-envelope far fa-envelope"></i>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

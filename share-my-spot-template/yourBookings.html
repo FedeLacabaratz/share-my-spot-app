@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Buda:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>ShareMySpot - Your Bookings</title>
+</head>
+<body>
+    <div class="yourBookings">
+        <div class="header">
+            <header class="header__container">
+                <div id="mySidepanel" class="header__menu">
+                    <a href="javascript:void(0)" class="header__menu-close" onclick="closeNav()">X</a>
+                    <a href="#">New Search</a>
+                    <a href="#">Add a Listing</a>
+                    <a href="#">Your Listings</a>
+                    <a href="#">Manage Your Requests</a>
+                    <a href="#">Your Bookings</a>
+                </div>
+                <i onclick="openNav()" class="header__menu-open fas fa-bars"></i>
+                    <script>
+                    function openNav() {
+                    document.getElementById("mySidepanel").style.width = "250px";
+                    }
+                    
+                    function closeNav() {
+                    document.getElementById("mySidepanel").style.width = "0";
+                    }
+                    </script>
+                <div class="header__logo">
+                    <img src="./images/logo.png" alt="ShareMySpotLogo">
+                </div>     
+                <div class="header__account">
+                    <i class="header__account-logout fas fa-power-off"></i>
+                    <i class="header__account-user fas fa-user"></i>
+                </div>     
+            </header>
+        </div>
+        <main>
+            <div class="yourBookings__container">
+                <h3 class="yourBookings__h3">YOU HAVE MADE A RESERVATION:</h3>
+                <p>Your reservation to: "YOUR LISTING TO BE BOOKED HERE" from "START HERE" to "END HERE" is awaiting confirmation from the publisher.</p>
+                <p>Please wait up now to hear back from him.</p><br><br>
+                <p>In case 24hs go by and you still haven't heard from him, feel free to call or send him an e-mail using the buttons located down below. <br><br> When/if accepted by the owner this will serve as your personal owner's data storage to get in touch with him. <br><br> In case of being rejected, it will dissapear from your MyBookings</p>
+                <div class="yourBookings__bottom">
+                    <i class="yourBookings__buttons-call fas fa-phone"></i>
+                    <i class="yourBookings__buttons-envelope far fa-envelope"></i>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

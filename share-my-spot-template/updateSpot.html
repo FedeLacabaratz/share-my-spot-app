@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Buda:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>ShareMySpot - Update Spot</title>
+</head>
+<body>
+    <div class="updateSpot">
+        <div class="header">
+            <header class="header__container">
+                <div id="mySidepanel" class="header__menu">
+                    <a href="javascript:void(0)" class="header__menu-close" onclick="closeNav()">X</a>
+                    <a href="#">New Search</a>
+                    <a href="#">Add a Listing</a>
+                    <a href="#">Your Listings</a>
+                    <a href="#">Manage Your Requests</a>
+                    <a href="#">Your Bookings</a>
+                </div>
+                <i onclick="openNav()" class="header__menu-open fas fa-bars"></i>
+                    <script>
+                    function openNav() {
+                    document.getElementById("mySidepanel").style.width = "250px";
+                    }
+                    
+                    function closeNav() {
+                    document.getElementById("mySidepanel").style.width = "0";
+                    }
+                    </script>
+                <div class="header__logo">
+                    <img src="./images/logo.png" alt="ShareMySpotLogo">
+                </div>     
+                <div class="header__account">
+                    <i class="header__account-logout fas fa-power-off"></i>
+                    <i class="header__account-user fas fa-user"></i>
+                </div>     
+            </header>
+        </div>
+        <main>
+            <div class="updateSpot__container">
+                <h3 class="updateSpot__h3">TITLE:</h3>
+                <form class="updateSpot__form" action="" method="post">
+                    <input class="updateSpot__infoToComplete" type="text" placeholder="Title">                
+                </form>
+                <h3 class="updateSpot__h3">FULL ADDRESS:</h3>
+                <form class="updateSpot__form" action="" method="post">
+                    <input class="updateSpot__infoToComplete" type="text" placeholder="City, Suburb">
+                    <input class="updateSpot__infoToComplete" type="text" placeholder="Street & Number">
+                    <input class="updateSpot__infoToComplete" type="text" placeholder="Other">
+                </form>
+                <h3 class="updateSpot__h3">PARKING FEATURES:</h3>
+                <form class="updateSpot__form" action="" method="post">
+                    <input class="updateSpot__infoToComplete" type="text" placeholder="Length">
+                    <input class="updateSpot__infoToComplete" type="text" placeholder="Width">
+                    <input class="updateSpot__infoToComplete" type="text" placeholder="Height">
+                    <input class="updateSpot__infoToComplete" type="text" placeholder="Area">
+                    <input class="updateSpot__infoToComplete" type="text" placeholder="General Description">
+                </form>
+                <h3 class="updateSpot__h3">PRICE:</h3>
+                <form class="updateSpot__form" action="" method="post">
+                    <input class="updateSpot__infoToComplete" type="text" placeholder="State your price">
+                    <input class="updateSpot__infoToComplete-upButton" type="file" name="imgUploads"><br>
+                    <label for="imgUploads"> Your Photos Here!</label><br>
+                </form>
+                <h3 class="updateSpot__h3">EXTRA FEATURES:</h3>
+                <form class="updateSpot__form2" action="" method="post">
+                    <input class="updateSpot__checkBox" type="checkbox" name="option1" value="Surveillance">
+                    <label for="option1"> Surveillance</label><br>
+                    <input class="updateSpot__checkBox" type="checkbox" name="option2" value="BarkerExchange">
+                    <label for="option2"> Accepts barker exchange</label><br>
+                    <input class="updateSpot__checkBox" type="checkbox" name="option3" value="CoveredParking">
+                    <label for="option3"> Covered Parking</label><br>
+                </form>
+                <h3 class="updateSpot__h3">TIME SCHEDULE:</h3>            
+                <form class="updateSpot__form" action="" method="post" >
+                    <p>Hour Starts: <input type="time" name="hourStarts"></p>  
+                    <p>Hour Ends: <input type="time" name="hourEnds"></p> 
+                </form> 
+                <h3 class="updateSpot__h3">AVAILABILITY:</h3>
+                <form class="updateSpot__form2" action="" method="post">
+                    <input class="updateSpot__checkBox" type="checkbox" name="option4" value="mon">
+                    <label for="option4"> Monday</label><br>
+                    <input class="updateSpot__checkBox" type="checkbox" name="option5" value="tue">
+                    <label for="option5"> Tuesday</label><br>
+                    <input class="updateSpot__checkBox" type="checkbox" name="option6" value="wed">
+                    <label for="option6"> Wednesday</label><br>
+                    <input class="updateSpot__checkBox" type="checkbox" name="option7" value="thu">
+                    <label for="option7"> Thursday</label><br>
+                    <input class="updateSpot__checkBox" type="checkbox" name="option8" value="fri">
+                    <label for="option8"> Friday</label><br>
+                    <input class="updateSpot__checkBox" type="checkbox" name="option9" value="sat">
+                    <label for="option9"> Saturday</label><br>
+                    <input class="updateSpot__checkBox" type="checkbox" name="option10" value="sun">
+                    <label for="option10"> Sunday</label><br>
+                </form>
+                <button class="updateSpot__submit" href="#">Update your Spot</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

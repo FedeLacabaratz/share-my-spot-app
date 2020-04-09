@@ -1,0 +1,53 @@
+@import config
+@import base-components
+
+.login
+    @extend %flexColumnCenter
+    align-items: center
+    text-align: center
+    background-color: $genbg-color
+    height: auto
+    width: 100%
+    margin: 1.5em
+
+    &__container
+        border-radius: 0.5em
+        margin: 0.5em
+        padding: 0.5em
+
+    &__container-logo
+        width: 85%
+
+    &__h2
+        @extend %text-H2
+        background-color: $genbg-color
+        padding: 0.5em
+    
+    &__input
+        text-align: center
+        background-color: $genbg-inputColor
+        border: 1px solid black
+        outline-color: #2c5043
+        font-size: 1.25em
+        width: 50%
+        border-radius: 0.5em
+        padding: 0.5em
+        margin: 0.5em
+
+    &__login
+        text-align: center
+        background-color: $genbg-inputColor
+        border: 1px solid black
+        outline-color: #2c5043
+        font-size: 1.2em
+        width: 50%
+        border-radius: 0.5em
+        padding: 0.5em
+        margin: 0.5em
+    
+    &__toRegister
+        @extend %text-linkDescription
+        text-align: center
+        font-size: 1em
+        padding: 0.5em
+        margin: 0.5em

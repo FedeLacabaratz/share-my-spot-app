@@ -1,0 +1,1245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Buda", cursive;
+}
+
+body {
+  height: auto;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+.globalIndex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: auto;
+  width: 100%;
+}
+
+.updateUser__h2, .register__h2, .login__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.register__toLogin, .login__toRegister {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .yourRequest__buttons, .yourRequest__bottom, .yourSpots__bottom, .detail__mAbook, .detail__bottom, .detail__photo, .results__bottom, .item__bottom, .header__account, .header__logo, .header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.yourSpots__photo, .yourSpots__container, .detail__container, .results__photo, .results__container, .item__photo, .item__container, .search__backgroundImg, .search__container, .updateUser, .register, .login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.updateUser__h2, .register__h2, .login__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.register__toLogin, .login__toRegister {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .yourRequest__buttons, .yourRequest__bottom, .yourSpots__bottom, .detail__mAbook, .detail__bottom, .detail__photo, .results__bottom, .item__bottom, .header__account, .header__logo, .header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.yourSpots__photo, .yourSpots__container, .detail__container, .results__photo, .results__container, .item__photo, .item__container, .search__backgroundImg, .search__container, .updateUser, .register, .login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login {
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: auto;
+  width: 100%;
+  margin: 1.5em;
+}
+.login__container {
+  border-radius: 0.5em;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.login__container-logo {
+  width: 85%;
+}
+.login__h2 {
+  background-color: #5cddc8;
+  padding: 0.5em;
+}
+.login__input {
+  text-align: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  font-size: 1.25em;
+  width: 50%;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.login__login {
+  text-align: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  font-size: 1.2em;
+  width: 50%;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.login__toRegister {
+  text-align: center;
+  font-size: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.updateUser__h2, .register__h2, .login__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.register__toLogin, .login__toRegister {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .yourRequest__buttons, .yourRequest__bottom, .yourSpots__bottom, .detail__mAbook, .detail__bottom, .detail__photo, .results__bottom, .item__bottom, .header__account, .header__logo, .header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.yourSpots__photo, .yourSpots__container, .detail__container, .results__photo, .results__container, .item__photo, .item__container, .search__backgroundImg, .search__container, .updateUser, .register, .login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register {
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: auto;
+  width: 100%;
+  margin: 1.5em;
+}
+.register__container {
+  border-radius: 0.5em;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.register__container-logo {
+  width: 85%;
+}
+.register__h2 {
+  background-color: #5cddc8;
+  padding: 0.5em;
+}
+.register__input {
+  text-align: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  font-size: 1.25em;
+  width: 50%;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.register__register {
+  text-align: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  font-size: 1.2em;
+  width: 50%;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.register__toLogin {
+  text-align: center;
+  font-size: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.updateUser__h2, .login__h2, .register__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.login__toRegister, .register__toLogin {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .yourRequest__buttons, .yourRequest__bottom, .yourSpots__bottom, .detail__mAbook, .detail__bottom, .detail__photo, .results__bottom, .item__bottom, .header__account, .header__logo, .header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.yourSpots__photo, .yourSpots__container, .detail__container, .results__photo, .results__container, .item__photo, .item__container, .search__backgroundImg, .search__container, .updateUser, .login, .register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.updateUser {
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: auto;
+  maring: 1.5em;
+}
+.updateUser__container {
+  border-radius: 0.5em;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.updateUser__h2 {
+  background-color: #5cddc8;
+  padding: 0.5em;
+}
+.updateUser__h3 {
+  font-size: 1.25em;
+  text-align: center;
+  margin: 1.5em;
+  font-weight: bold;
+}
+.updateUser__input {
+  text-align: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  font-size: 1.25em;
+  width: 65%;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.updateUser__submitUpdate {
+  text-align: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  font-size: 1.2em;
+  width: 65%;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.login__h2, .register__h2, .updateUser__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.login__toRegister, .register__toLogin {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .yourRequest__buttons, .yourRequest__bottom, .yourSpots__bottom, .detail__mAbook, .detail__bottom, .detail__photo, .results__bottom, .item__bottom, .header__account, .header__logo, .header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.yourSpots__photo, .yourSpots__container, .detail__container, .results__photo, .results__container, .item__photo, .item__container, .search__backgroundImg, .search__container, .login, .register, .updateUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  background-color: #5cddc8;
+}
+.header__container {
+  background-color: #c0c9c7;
+  width: 100%;
+}
+.header__logo {
+  justify-content: center;
+}
+.header__logo img {
+  display: block;
+  text-align: center;
+  width: 55%;
+}
+.header__menu {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 18em;
+  top: 0;
+  left: 0;
+  background-color: #4e4b4b;
+  overflow-x: hidden;
+  transition: 0.25s;
+  padding-top: 2.5em;
+}
+.header__menu a {
+  padding: 0.25em 0.25em 0.25em 1em;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #818181;
+  display: block;
+  transition: 0.2s;
+}
+.header__menu a:hover {
+  color: #f1f1f1;
+}
+.header__menu-close {
+  position: absolute;
+  top: 0;
+  right: 0.25em;
+  font-size: 1.5em;
+}
+.header__menu-open {
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-left: 1em;
+  width: 15%;
+  border: none;
+}
+.header__menu-open:hover {
+  background-color: #444;
+}
+.header__account {
+  justify-content: flex-start;
+  width: 30%;
+}
+.header__account-logout {
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-left: 0.05em;
+  margin-right: 0.5em;
+  display: block;
+  text-align: left;
+}
+.header__account-user {
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-right: 0.05em;
+  display: block;
+  text-align: right;
+}
+
+.login__h2, .register__h2, .updateUser__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.login__toRegister, .register__toLogin {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .yourRequest__buttons, .yourRequest__bottom, .yourSpots__bottom, .detail__mAbook, .detail__bottom, .detail__photo, .results__bottom, .item__bottom, .header__container, .header__logo, .header__account {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.yourSpots__photo, .yourSpots__container, .detail__container, .results__photo, .results__container, .item__photo, .item__container, .search__backgroundImg, .search__container, .login, .register, .updateUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: 100vh;
+  width: 100%;
+}
+.search__container {
+  width: 100%;
+  align-items: center;
+}
+.search__backgroundImg {
+  background-color: #c0c9c7;
+  align-items: center;
+  margin-bottom: 1.5em;
+  overflow: hidden;
+  width: 100%;
+}
+.search__input {
+  text-align: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  font-size: 1.2em;
+  width: 50%;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.search__goSearch {
+  text-align: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  font-size: 1.2em;
+  width: 50%;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.login__h2, .register__h2, .updateUser__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.login__toRegister, .register__toLogin {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .yourRequest__buttons, .yourRequest__bottom, .yourSpots__bottom, .detail__mAbook, .detail__bottom, .detail__photo, .results__bottom, .item__bottom, .header__container, .header__logo, .header__account {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.yourSpots__photo, .yourSpots__container, .detail__container, .results__photo, .results__container, .item__photo, .item__container, .login, .register, .updateUser, .search__container, .search__backgroundImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: 100vh;
+  width: 100%;
+}
+.item__container {
+  background-color: #ffffff;
+  align-items: center;
+  border: 1px solid black;
+  margin: 1.5em;
+}
+.item__photo {
+  background-color: #c0c9c7;
+  width: 100%;
+}
+.item__h4 {
+  color: #857f7f;
+}
+.item__h2 {
+  font-weight: bold;
+  text-align: center;
+}
+.item span {
+  font-size: 1em;
+  text-align: center;
+}
+.item__bottom {
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  padding: 1.5em;
+  width: 100%;
+}
+.item__bottom-call, .item__bottom-envelope {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  height: 1.5em;
+  width: 20%;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  padding: 0.2em;
+  margin: 0.5em;
+}
+
+.login__h2, .register__h2, .updateUser__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.login__toRegister, .register__toLogin {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .yourRequest__buttons, .yourRequest__bottom, .yourSpots__bottom, .detail__mAbook, .detail__bottom, .detail__photo, .results__bottom, .header__container, .header__logo, .header__account, .item__bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.yourSpots__photo, .yourSpots__container, .detail__container, .results__photo, .results__container, .login, .register, .updateUser, .search__container, .search__backgroundImg, .item__container, .item__photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: auto;
+  width: 100%;
+}
+.results__container {
+  background-color: #ffffff;
+  align-items: center;
+  border: 1px solid black;
+  margin: 1.5em;
+}
+.results__photo {
+  background-color: #c0c9c7;
+  width: 100%;
+}
+.results__h4 {
+  color: #857f7f;
+}
+.results__h2 {
+  font-weight: bold;
+}
+.results span {
+  font-size: 1em;
+  text-align: center;
+}
+.results__bottom {
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  padding: 1.5em;
+  width: 100%;
+}
+.results__bottom-call, .results__bottom-envelope {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  height: 1.5em;
+  width: 20%;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  padding: 0.2em;
+  margin: 0.5em;
+}
+.results__bottom-phone {
+  display: none;
+}
+.results__bottom-call:hover + .results__bottom-phone {
+  display: block;
+}
+.results__bottom-email {
+  display: none;
+}
+.results__bottom-envelope:hover + .results__bottom-email {
+  display: block;
+}
+
+.login__h2, .register__h2, .updateUser__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.login__toRegister, .register__toLogin {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .yourRequest__buttons, .yourRequest__bottom, .yourSpots__bottom, .detail__mAbook, .detail__bottom, .detail__photo, .header__container, .header__logo, .header__account, .item__bottom, .results__bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.yourSpots__photo, .yourSpots__container, .detail__container, .login, .register, .updateUser, .search__container, .search__backgroundImg, .item__container, .item__photo, .results__container, .results__photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: auto;
+}
+.detail__container {
+  background-color: #ffffff;
+  align-items: center;
+  border: 1px solid black;
+  margin: 1.5em;
+}
+.detail__photo {
+  background-color: #c0c9c7;
+  width: 100%;
+}
+.detail__h4 {
+  text-align: center;
+  margin: 0.25em;
+  color: #857f7f;
+}
+.detail__p {
+  margin: 0.25em;
+  text-align: center;
+  font-size: 1em;
+  color: #857f7f;
+}
+.detail__h2 {
+  text-align: center;
+  margin: 0.25em;
+  font-weight: bold;
+}
+.detail__h3 {
+  text-align: center;
+  margin: 0.25em;
+  font-weight: bold;
+}
+.detail span {
+  text-align: center;
+  margin: 0.25em;
+  font-size: 1em;
+}
+.detail__ul {
+  list-style-type: none;
+  margin: 0.25em;
+  text-align: center;
+  font-size: 1em;
+  color: #857f7f;
+}
+.detail li {
+  text-align: center;
+  margin: 0.25em;
+  font-size: 1em;
+}
+.detail__detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  height: 1.75em;
+  width: 75%;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+}
+.detail__bottom {
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  padding: 1.5em;
+  width: 100%;
+}
+.detail__bottom-call, .detail__bottom-envelope {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  height: 1.5em;
+  width: 20%;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  padding: 0.2em;
+  margin: 0.5em;
+}
+.detail__mAbook {
+  justify-content: center;
+  align-items: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  width: 80%;
+  height: 1.75em;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  margin: 1.5em;
+}
+
+.login__h2, .register__h2, .updateUser__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.login__toRegister, .register__toLogin {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .yourRequest__buttons, .yourRequest__bottom, .yourSpots__bottom, .header__container, .header__logo, .header__account, .item__bottom, .results__bottom, .detail__photo, .detail__bottom, .detail__mAbook {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.yourSpots__photo, .yourSpots__container, .login, .register, .updateUser, .search__container, .search__backgroundImg, .item__container, .item__photo, .results__container, .results__photo, .detail__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.yourSpots {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: auto;
+  width: 100%;
+}
+.yourSpots__container {
+  background-color: #ffffff;
+  align-items: center;
+  border: 1px solid black;
+  margin: 1.5em;
+}
+.yourSpots__photo {
+  background-color: #c0c9c7;
+  width: 100%;
+}
+.yourSpots__h4 {
+  color: #857f7f;
+}
+.yourSpots__h2 {
+  font-weight: bold;
+}
+.yourSpots span {
+  font-size: 1em;
+  text-align: center;
+}
+.yourSpots__bottom {
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  padding: 1.5em;
+  width: 100%;
+}
+.yourSpots__bottom-edit, .yourSpots__bottom-trash {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  height: 1.5em;
+  width: 20%;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  padding: 0.2em;
+  margin: 0.5em;
+}
+
+.login__h2, .register__h2, .updateUser__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.login__toRegister, .register__toLogin {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .yourRequest__buttons, .yourRequest__bottom, .header__container, .header__logo, .header__account, .item__bottom, .results__bottom, .detail__photo, .detail__bottom, .detail__mAbook, .yourSpots__bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.login, .register, .updateUser, .search__container, .search__backgroundImg, .item__container, .item__photo, .results__container, .results__photo, .detail__container, .yourSpots__container, .yourSpots__photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addSpot {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: auto;
+  width: 100%;
+}
+.addSpot__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin: 1.5em;
+}
+.addSpot__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  font-size: 1.2em;
+  margin: 0.5em;
+}
+.addSpot__form2 {
+  display: inline-block;
+  height: auto;
+  font-size: 1.2em;
+  margin: 0.5em;
+}
+.addSpot__infoToComplete {
+  background-color: #c0c9c7;
+  text-align: center;
+  font-size: 1em;
+  height: 2.25em;
+  margin: 0.5em;
+}
+.addSpot__infoToComplete-upButton {
+  background-color: #c0c9c7;
+  text-align: center;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  height: 2em;
+  border-radius: 0.5em;
+  width: 60;
+  margin: 0.5em;
+}
+.addSpot_h3 {
+  text-align: center;
+  margin: 0.5em;
+  font-weight: bold;
+}
+.addSpot__checkBox {
+  text-align: start;
+  margin: 0.5em;
+  font-size: 1em;
+}
+.addSpot p {
+  text-align: start;
+  margin: 0.5em;
+  font-size: 1em;
+}
+.addSpot .addSpot__submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  height: 2em;
+  width: 75%;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+}
+
+.login__h2, .register__h2, .updateUser__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.login__toRegister, .register__toLogin {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .yourRequest__buttons, .yourRequest__bottom, .header__container, .header__logo, .header__account, .item__bottom, .results__bottom, .detail__photo, .detail__bottom, .detail__mAbook, .yourSpots__bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.login, .register, .updateUser, .search__container, .search__backgroundImg, .item__container, .item__photo, .results__container, .results__photo, .detail__container, .yourSpots__container, .yourSpots__photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.updateSpot {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: auto;
+  width: 100%;
+}
+.updateSpot__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin: 1.5em;
+}
+.updateSpot__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  font-size: 1.2em;
+  margin: 0.5em;
+}
+.updateSpot__form2 {
+  display: inline-block;
+  height: auto;
+  font-size: 1.2em;
+  margin: 0.5em;
+}
+.updateSpot__infoToComplete {
+  background-color: #c0c9c7;
+  text-align: center;
+  font-size: 1em;
+  height: 2.25em;
+  margin: 0.5em;
+}
+.updateSpot__infoToComplete-upButton {
+  background-color: #c0c9c7;
+  text-align: center;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  height: 2em;
+  border-radius: 0.5em;
+  width: 60;
+  margin: 0.5em;
+}
+.updateSpot_h3 {
+  text-align: center;
+  margin: 0.5em;
+  font-weight: bold;
+}
+.updateSpot__checkBox {
+  text-align: start;
+  margin: 0.5em;
+  font-size: 1em;
+}
+.updateSpot p {
+  text-align: start;
+  margin: 0.5em;
+  font-size: 1em;
+}
+.updateSpot .updateSpot__submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  height: 2em;
+  width: 75%;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+}
+
+.login__h2, .register__h2, .updateUser__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.login__toRegister, .register__toLogin {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .yourRequest__buttons, .yourRequest__bottom, .header__container, .header__logo, .header__account, .item__bottom, .results__bottom, .detail__photo, .detail__bottom, .detail__mAbook, .yourSpots__bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.login, .register, .updateUser, .search__container, .search__backgroundImg, .item__container, .item__photo, .results__container, .results__photo, .detail__container, .yourSpots__container, .yourSpots__photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.yourRequest {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: 100vh;
+  width: 100%;
+}
+.yourRequest__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  align-items: center;
+  height: 50vh;
+  border: 1px solid black;
+  margin: 1.5em;
+}
+.yourRequest__h3 {
+  text-align: center;
+  margin: 1.5em;
+  font-weight: bold;
+}
+.yourRequest__p {
+  margin: 1.5em;
+  text-align: center;
+  font-size: 1em;
+  color: #857f7f;
+}
+.yourRequest__bottom {
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  padding: 1.5em;
+  width: 100%;
+  margin: 1.5em;
+}
+.yourRequest__buttons {
+  justify-content: space-around;
+  align-items: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  height: 1.75em;
+  width: 50%;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  margin: 0.25em;
+}
+
+.login__h2, .register__h2, .updateUser__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.login__toRegister, .register__toLogin {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .manageRequests__buttons, .manageRequests__bottom, .header__container, .header__logo, .header__account, .item__bottom, .results__bottom, .detail__photo, .detail__bottom, .detail__mAbook, .yourSpots__bottom, .yourRequest__bottom, .yourRequest__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.login, .register, .updateUser, .search__container, .search__backgroundImg, .item__container, .item__photo, .results__container, .results__photo, .detail__container, .yourSpots__container, .yourSpots__photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.manageRequests {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: auto;
+  width: 100%;
+}
+.manageRequests__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  align-items: center;
+  height: 50vh;
+  border: 1px solid black;
+  margin: 1.5em;
+}
+.manageRequests__h3 {
+  text-align: center;
+  margin: 1.5em;
+  font-weight: bold;
+}
+.manageRequests__p {
+  margin: 1.5em;
+  text-align: center;
+  font-size: 1em;
+  color: #857f7f;
+}
+.manageRequests__bottom {
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  padding: 1.5em;
+  width: 100%;
+  margin: 1.5em;
+}
+.manageRequests__buttons {
+  justify-content: space-around;
+  align-items: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  height: 1.75em;
+  width: 50%;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  margin: 0.25em;
+}
+
+.login__h2, .register__h2, .updateUser__h2 {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.75em;
+}
+
+.login__toRegister, .register__toLogin {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1em;
+}
+
+.yourBookings__buttons-call, .yourBookings__buttons-envelope, .yourBookings__bottom, .header__container, .header__logo, .header__account, .item__bottom, .results__bottom, .detail__photo, .detail__bottom, .detail__mAbook, .yourSpots__bottom, .yourRequest__bottom, .yourRequest__buttons, .manageRequests__bottom, .manageRequests__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.login, .register, .updateUser, .search__container, .search__backgroundImg, .item__container, .item__photo, .results__container, .results__photo, .detail__container, .yourSpots__container, .yourSpots__photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.yourBookings {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: #5cddc8;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+.yourBookings__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  align-items: center;
+  height: 65vh;
+  border: 1px solid black;
+  margin: 1.5em;
+}
+.yourBookings__h3 {
+  text-align: center;
+  margin: 1.5em;
+  font-weight: bold;
+}
+.yourBookings__p {
+  margin: 1.5em;
+  padding: 1.5em;
+  text-align: center;
+  font-size: 1em;
+  color: #857f7f;
+}
+.yourBookings__bottom {
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  padding: 1.5em;
+  width: 100%;
+  margin: 1.5em;
+}
+.yourBookings__buttons-call, .yourBookings__buttons-envelope {
+  justify-content: space-around;
+  align-items: center;
+  background-color: #c0c9c7;
+  border: 1px solid black;
+  outline-color: #2c5043;
+  height: 1.75em;
+  width: 35%;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  margin: 0.25em;
+}
+
+/*# sourceMappingURL=index.css.map */

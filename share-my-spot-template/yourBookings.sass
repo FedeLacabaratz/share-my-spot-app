@@ -1,0 +1,56 @@
+@import config
+@import base-components
+
+.yourBookings
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    text-align: center
+    background-color: $genbg-color
+    height: 100vh
+    width: 100%
+    margin-bottom: 1.5em
+
+    &__container
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        background-color: $color-white
+        align-items: center
+        height: 65vh
+        border: 1px solid black
+        margin: 1.5em
+
+    &__h3
+        text-align: center
+        margin: 1.5em
+        font-weight: bold
+    &__p
+        margin: 1.5em
+        padding: 1.5em
+        text-align: center
+        font-size: 1em
+        color: $color-gray    
+
+    &__bottom
+        @extend %flexRowCenter
+        justify-content: center
+        align-items: center
+        height: 3em
+        padding: 1.5em
+        width: 100%
+        margin: 1.5em
+
+    &__buttons-call, &__buttons-envelope
+        @extend %flexRowCenter
+        justify-content: space-around
+        align-items: center
+        background-color: $genbg-inputColor
+        border: 1px solid black
+        outline-color: #2c5043
+        height: 1.75em
+        width: 35%
+        font-size: 1.2em
+        border-radius: 0.5em
+        margin: 0.25em

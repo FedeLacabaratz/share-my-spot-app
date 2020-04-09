@@ -1,0 +1,68 @@
+@import config
+@import base-components
+
+.results
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    text-align: center
+    background-color: $genbg-color
+    height: 100vh
+    width: 100%
+
+    &__container
+        @extend %flexColumnCenter
+        background-color: $color-white
+        align-items: center
+        border: 1px solid black
+        margin: 1.5em
+
+    &__photo
+        @extend %flexColumnCenter
+        background-color: $genbg-inputColor
+        width: 100%
+
+    &__h4
+        color: $color-gray
+
+    &__h2
+        font-weight: bold
+
+    span
+        font-size: 1em
+        text-align: center
+
+    &__bottom
+        @extend %flexRowCenter
+        justify-content: center
+        align-items: center
+        height: 3em
+        padding: 1.5em
+        width: 100%
+
+    &__bottom-call, &__bottom-envelope
+        align-content: center
+        align-items: center
+        text-align: center
+        background-color: $genbg-inputColor
+        border: 1px solid black
+        outline-color: #2c5043
+        height: 1.5em
+        width: 20%
+        font-size: 1.2em
+        border-radius: 0.5em
+        padding: 0.2em
+        margin: 0.5em
+    
+    &__bottom-phone
+        display: none
+
+    &__bottom-call:hover + &__bottom-phone
+        display: block
+    
+    &__bottom-email
+        display: none
+
+    &__bottom-envelope:hover + &__bottom-email
+        display: block

@@ -1,0 +1,83 @@
+@import config
+@import base-components
+
+// BEM - Block__Element--Modifier
+
+.header
+    display: flex
+    width: 100%
+    background-color: $genbg-color
+
+    &__container
+        @extend %flexRowCenter
+        background-color: $genbg-inputColor
+        width: 100%
+        
+    &__logo
+        @extend %flexRowCenter
+        justify-content: center
+
+        img
+            display: block
+            text-align: center
+            width: 55%
+
+    &__menu // .header__menu
+        width: 0
+        position: fixed
+        z-index: 1
+        height: 18em
+        top: 0
+        left: 0
+        background-color: #4e4b4b
+        overflow-x: hidden
+        transition: 0.25s
+        padding-top: 2.5em
+
+        a 
+            padding: 0.25em 0.25em 0.25em 1em
+            text-decoration: none
+            font-size: 1.5em
+            color: #818181
+            display: block
+            transition: 0.2s
+
+            &:hover 
+                color: #f1f1f1
+
+    &__menu-close // .header__menu-close
+        position: absolute
+        top: 0
+        right: 0.25em
+        font-size: 1.5em
+
+
+    &__menu-open // .header__menu-open
+        font-size: 1.5em
+        cursor: pointer
+        margin-left: 1em
+        width: 15%
+        border: none
+
+        &:hover 
+            background-color:#444
+
+    &__account
+        @extend %flexRowCenter
+        justify-content: flex-start
+        width: 30%
+
+    &__account-logout
+        font-size: 1.5em
+        cursor: pointer
+        margin-left: 0.05em
+        margin-right: 0.5em
+        display: block
+        text-align: left
+
+    &__account-user
+        font-size: 1.5em
+        cursor: pointer
+        margin-right: 0.05em
+        display: block
+        text-align: right

@@ -1,0 +1,84 @@
+@import config
+@import base-components
+
+.addSpot
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    text-align: center
+    background-color: $genbg-color
+    height: auto
+    width: 100%
+
+    &__container
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        background-color: $color-white
+        border: 1px solid black
+        outline-color: #2c5043
+        padding-top: 1.5em
+        padding-bottom: 1.5em
+        margin: 1.5em
+
+    &__form
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        height: auto
+        font-size: 1.2em
+        margin: 0.5em
+    
+    &__form2
+        display: inline-block
+        height: auto
+        font-size: 1.2em
+        margin: 0.5em
+
+    &__infoToComplete
+        background-color: $genbg-inputColor
+        text-align: center
+        font-size: 1em
+        height: 2.25em
+        margin: 0.5em
+
+    &__infoToComplete-upButton
+        background-color: $genbg-inputColor
+        text-align: center
+        border: 1px solid black
+        outline-color: #2c5043
+        height: 2em
+        border-radius: 0.5em
+        width: 60
+        margin: 0.5em
+
+    &_h3
+        text-align: center
+        margin: 0.5em
+        font-weight: bold
+    
+    &__checkBox
+        text-align: start
+        margin: 0.5em
+        font-size: 1em
+    
+    p
+        text-align: start
+        margin: 0.5em
+        font-size: 1em
+  
+    .addSpot__submit
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: flex-start
+        background-color: $genbg-inputColor
+        border: 1px solid black
+        outline-color: #2c5043
+        height: 2em
+        width: 75%
+        font-size: 1.2em
+        border-radius: 0.5em

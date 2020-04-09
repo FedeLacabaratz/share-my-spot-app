@@ -1,0 +1,52 @@
+@import ./config
+@import ./base-components
+
+.header
+    height: 10%
+    width: 100%
+
+.navbar
+    background-color: #e6e6e6
+.navbar__ul
+    display: flex
+    justify-content: space-between
+    align-items: center
+    list-style: none
+
+.header__logo-img
+    margin-left: 1em
+    max-width: 8.5rem
+
+.burger
+    font-size: 2rem
+    margin-left: 1rem
+
+.navbar__social
+    font-size: 1.5rem
+    
+    a 
+        margin-right: 1rem
+
+.textMenu
+    margin: 0.2em
+    padding: 0.25em 0.25em 0.25em 0.25em
+    text-decoration: none
+    font-size: 1.5em
+    color: #d3d1d1
+    display: block
+    transition: 0.2s
+    cursor: pointer
+
+.textMenu a:hover
+    color: #f1f1f1
+
+.sidemenu
+    height: auto
+    width: 63%
+    position: absolute
+    left: -999px
+    background-color: #4e4b4b
+    transition: ease 1s
+
+.active
+    left: 0

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Buda:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>ShareMySpot - Update User</title>
+</head>
+<body>
+    <div class="updateUser">
+        <div class="header">
+            <header class="header__container">
+                <div id="mySidepanel" class="header__menu">
+                    <a href="javascript:void(0)" class="header__menu-close" onclick="closeNav()">X</a>
+                    <a href="#">New Search</a>
+                    <a href="#">Add a Listing</a>
+                    <a href="#">Your Listings</a>
+                    <a href="#">Manage Your Requests</a>
+                    <a href="#">Your Bookings</a>
+                </div>
+                <i onclick="openNav()" class="header__menu-open fas fa-bars"></i>
+                    <script>
+                    function openNav() {
+                    document.getElementById("mySidepanel").style.width = "250px";
+                    }
+                    
+                    function closeNav() {
+                    document.getElementById("mySidepanel").style.width = "0";
+                    }
+                    </script>
+                <div class="header__logo">
+                    <img src="./images/logo.png" alt="ShareMySpotLogo">
+                </div>     
+                <div class="header__account">
+                    <i class="header__account-logout fas fa-power-off"></i>
+                    <i class="header__account-user fas fa-user"></i>
+                </div>     
+            </header>
+        </div> 
+        <form class="updateUser__container">
+            <h2 class="updateUser__h2">Account</h2>
+            <h3 class="updateUser__h3">Welcome Federico Lacabaratz</h3>
+            <input class="updateUser__input" type="text" placeholder="email">
+            <input class="updateUser__input" type="number" placeholder="+34 555 123 456">
+            <input class="updateUser__input" type="password" placeholder="old password">
+            <input class="updateUser__input" type="password" placeholder="new password">
+            <button class="updateUser__submitUpdate">Update Information</button>
+        </form>
+    </div>
+</body>
+</html>

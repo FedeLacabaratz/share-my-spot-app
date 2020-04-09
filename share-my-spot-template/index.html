@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Buda:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>ShareMySpot - Index</title>
+</head>
+<body>
+    <div class="globalIndex">
+        <div class="login">
+            <form class="login__container">
+                <img class="login__container-logo" src="./images/logo.png" alt="ShareMySpotLogo">
+                <h2 class="login__h2">Sign-In</h2>
+                <input class="login__input" type="text" placeholder="email">
+                <input class="login__input" type="password" placeholder="password">
+                <button class="login__login">Login</button><br>
+                <a class="login__toRegister" href="">Not registered yet? - Go To Register</a>
+            </form>
+        </div> 
+        <br>
+        <br>
+    
+        <div class="register">
+            <form class="register__container">
+                <img class="register__container-logo" src="./images/logo.png" alt="ShareMySpotLogo">
+                <h2 class="register__h2">Sign-Up</h2>
+                <input class="register__input" type="text" placeholder="name">
+                <input class="register__input" type="text" placeholder="surname">
+                <input class="register__input" type="text" placeholder="email">
+                <input class="register__input" type="password" placeholder="password">
+                <button class="register__register">Register</button><br>
+                <a class="register__toLogin" href="">Already registered? - Go To Login</a>
+            </form>
+        </div> 
+        <br>
+        <br>
+        <div class="search">
+            <div class="header">
+                <header class="header__container">
+                    <div id="mySidepanel" class="header__menu">
+                        <a href="javascript:void(0)" class="header__menu-close" onclick="closeNav()">X</a>
+                        <a href="#">New Search</a>
+                        <a href="#">Add a Listing</a>
+                        <a href="#">Your Listings</a>
+                        <a href="#">Manage Your Requests</a>
+                        <a href="#">Your Bookings</a>
+                    </div>
+                    <i onclick="openNav()" class="header__menu-open fas fa-bars"></i>
+                        <script>
+                        function openNav() {
+                        document.getElementById("mySidepanel").style.width = "250px";
+                        }
+                        
+                        function closeNav() {
+                        document.getElementById("mySidepanel").style.width = "0";
+                        }
+                        </script>
+                    <div class="header__logo">
+                        <img src="./images/logo.png" alt="ShareMySpotLogo">
+                    </div>     
+                    <div class="header__account">
+                        <i class="header__account-logout fas fa-power-off"></i>
+                        <i class="header__account-user fas fa-user"></i>
+                    </div>     
+                </header>
+            </div>
+            <div class="search__container">
+                <main>
+                    <form class="search__form">
+                        <img class="search__backgroundImg" src="./images/homeBckgrnd.png" alt="ShareMySpotLogo">
+                        <input class="search__input" type="text" placeholder="Search by location">
+                        <input class="search__input" type="text" placeholder="Search by lenght">
+                        <input class="search__input" type="text" placeholder="Search by height">
+                        <input class="search__input" type="text" placeholder="Search by width">
+                        <input class="search__input" type="text" placeholder="Search by price">
+                        <input class="search__input" type="text" placeholder="Barker Exchange?">
+                        <button class="search__goSearch">Search</button>
+                    </form>
+                </main>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="updateUser">
+            <div class="header">
+                <header class="header__container">
+                    <div id="mySidepanel" class="header__menu">
+                        <a href="javascript:void(0)" class="header__menu-close" onclick="closeNav()">X</a>
+                        <a href="#">New Search</a>
+                        <a href="#">Add a Listing</a>
+                        <a href="#">Your Listings</a>
+                        <a href="#">Manage Your Requests</a>
+                        <a href="#">Your Bookings</a>
+                    </div>
+                    <i onclick="openNav()" class="header__menu-open fas fa-bars"></i>
+                        <script>
+                        function openNav() {
+                        document.getElementById("mySidepanel").style.width = "250px";
+                        }
+                        
+                        function closeNav() {
+                        document.getElementById("mySidepanel").style.width = "0";
+                        }
+                        </script>
+                    <div class="header__logo">
+                        <img src="./images/logo.png" alt="ShareMySpotLogo">
+                    </div>     
+                    <div class="header__account">
+                        <i class="header__account-logout fas fa-power-off"></i>
+                        <i class="header__account-user fas fa-user"></i>
+                    </div>     
+                </header>
+            </div> 
+            <form class="updateUser__container">
+                <h2 class="updateUser__h2">Account</h2>
+                <input class="updateUser__input" type="text" placeholder="name">
+                <input class="updateUser__input" type="text" placeholder="surname">
+                <input class="updateUser__input" type="number" placeholder="+34 555 123 456">
+                <input class="updateUser__input" type="text" placeholder="email">
+                <input class="updateUser__input" type="password" placeholder="old password">
+                <input class="updateUser__input" type="password" placeholder="new password">
+                <button class="updateUser__submitUpdate">Update Information</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="item">
+            <div class="header">
+                <header class="header__container">
+                    <div id="mySidepanel" class="header__menu">
+                        <a href="javascript:void(0)" class="header__menu-close" onclick="closeNav()">X</a>
+                        <a href="#">New Search</a>
+                        <a href="#">Add a Listing</a>
+                        <a href="#">Your Listings</a>
+                        <a href="#">Manage Your Requests</a>
+                        <a href="#">Your Bookings</a>
+                    </div>
+                    <i onclick="openNav()" class="header__menu-open fas fa-bars"></i>
+                        <script>
+                        function openNav() {
+                        document.getElementById("mySidepanel").style.width = "250px";
+                        }
+                        
+                        function closeNav() {
+                        document.getElementById("mySidepanel").style.width = "0";
+                        }
+                        </script>
+                    <div class="header__logo">
+                        <img src="./images/logo.png" alt="ShareMySpotLogo">
+                    </div>     
+                    <div class="header__account">
+                        <i class="header__account-logout fas fa-power-off"></i>
+                        <i class="header__account-user fas fa-user"></i>
+                    </div>     
+                </header>
+            </div>
+            <div class="item__container" >
+                <img class="item__photo" src="https://fakeimg.pl/350x350/?text=Photos">
+                <h4 class="item__h4">Garage at Arenys St. 123, Sant Cugat del Valles</h4>
+                <h2 class="item__h2">12 €/per hour</h2><span>(*) See Conditions</span>
+                <div class="item__bottom">
+                    <i class="item__bottom-call fas fa-phone"></i>
+                    <i class="item__bottom-envelope far fa-envelope"></i>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="results">
+            <div class="header">
+                <header class="header__container">
+                    <div id="mySidepanel" class="header__menu">
+                        <a href="javascript:void(0)" class="header__menu-close" onclick="closeNav()">X</a>
+                        <a href="#">New Search</a>
+                        <a href="#">Add a Listing</a>
+                        <a href="#">Your Listings</a>
+                        <a href="#">Manage Your Requests</a>
+                        <a href="#">Your Bookings</a>
+                    </div>
+                    <i onclick="openNav()" class="header__menu-open fas fa-bars"></i>
+                        <script>
+                        function openNav() {
+                        document.getElementById("mySidepanel").style.width = "250px";
+                        }
+                        
+                        function closeNav() {
+                        document.getElementById("mySidepanel").style.width = "0";
+                        }
+                        </script>
+                    <div class="header__logo">
+                        <img src="./images/logo.png" alt="ShareMySpotLogo">
+                    </div>     
+                    <div class="header__account">
+                        <i class="header__account-logout fas fa-power-off"></i>
+                        <i class="header__account-user fas fa-user"></i>
+                    </div>     
+                </header>
+            </div>
+            <main>
+                <div class="results__container" >
+                    <img class="results__photo" src="https://fakeimg.pl/350x350/?text=Photos">
+                    <h4 class="results__h4">Garage at Arenys St. 123, Sant Cugat del Valles</h4>
+                    <h2 class="results__h2">2 €/per hour</h2><span>(*) See conditions</span>
+                    <div class="results__bottom">
+                        <i class="results__bottom-call fas fa-phone"></i>
+                        <i class="results__bottom-envelope far fa-envelope"></i>
+                    </div>
+                </div>
+                <div class="results__container" >
+                    <img class="results__photo" src="https://fakeimg.pl/350x350/?text=Photos">
+                    <h4 class="results__h4">Garage at Arenys St. 123, Sant Cugat del Valles</h4>
+                    <h2 class="results__h2">2 €/per hour</h2><span>(*) See conditions</span>
+                    <div class="results__bottom">
+                        <i class="results__bottom-call fas fa-phone"></i>
+                        <i class="results__bottom-envelope far fa-envelope"></i>
+                    </div>
+                </div>
+                <div class="results__container" >
+                    <img class="results__photo" src="https://fakeimg.pl/350x350/?text=Photos">
+                    <h4 class="results__h4">Garage at Arenys St. 123, Sant Cugat del Valles</h4>
+                    <h2 class="results__h2">2 €/per hour</h2><span>(*) See conditions</span>
+                    <div class="results__bottom">
+                        <i class="results__bottom-call fas fa-phone"></i>
+                        <i class="results__bottom-envelope far fa-envelope"></i>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <br>
+        <br>
+        <div class="detail">
+            <div class="header">
+                <header class="header__container">
+                    <div id="mySidepanel" class="header__menu">
+                        <a href="javascript:void(0)" class="header__menu-close" onclick="closeNav()">X</a>
+                        <a href="#">New Search</a>
+                        <a href="#">Add a Listing</a>
+                        <a href="#">Your Listings</a>
+                        <a href="#">Manage Your Requests</a>
+                        <a href="#">Your Bookings</a>
+                    </div>
+                    <i onclick="openNav()" class="header__menu-open fas fa-bars"></i>
+                        <script>
+                        function openNav() {
+                        document.getElementById("mySidepanel").style.width = "250px";
+                        }
+                        
+                        function closeNav() {
+                        document.getElementById("mySidepanel").style.width = "0";
+                        }
+                        </script>
+                    <div class="header__logo">
+                        <img src="./images/logo.png" alt="ShareMySpotLogo">
+                    </div>     
+                    <div class="header__account">
+                        <i class="header__account-logout fas fa-power-off"></i>
+                        <i class="header__account-user fas fa-user"></i>
+                    </div>     
+                </header>
+            </div>
+            <div class="detail__container">
+                <main>
+                    <img class="detail__photo" src="https://fakeimg.pl/350x350/?text=Photos">
+                    <h4 class="detail__h4">Garage at Arenys St. 123, Sant Cugat del Valles</h4>
+                    <h2 class="detail__h2">2 €/per hour</h2><span>(*) See conditions</span>
+                    <h3 class="detail__h3">DESCRIPTION:</h3>
+                    <p class="detail__p">Parking place for rent. From Mon. to Fri. 9am to 5pm (While I'am at work). Please check the calendar for availability</p>
+                    <h3 class="detail__h3">TIME SCHEDULE:</h3>
+                    <ul class="detail__ul">
+                        <li>Hour Starts: 10hs</li>
+                        <li>Hour Ends: 17hs</li>
+                    </ul>
+                    <h3 class="detail__h3">PARKING FEATURES:</h3>
+                    <ul class="detail__ul">
+                        <li>Length: 4,50mt</li>
+                        <li>Width: 2,20mt</li>
+                        <li>Height: 2,40mt</li>
+                        <li>Area: 10mt2</li>
+                    </ul>
+                    <h3 class="detail__h3">EXTRA FEATURES:</h3>
+                    <ul class="detail__ul">
+                        <li>Surveillance: No</li>
+                        <li>Accepts Barker Exchange: Yes</li>
+                        <li>Covered Parking: Yes</li>
+                    </ul>
+                    <h3 class="detail__h3">FULL ADDRESS:</h3>
+                    <p class="detail__p">Arenys St. 123,<br>Sant Cugat del Valles,<br>Barcelona</p>
+                    <h3 class="detail__h3">PUBLISHER:</h3>
+                    <p class="detail__p">Chiara<br>Parking ID: 123456</p>
+                    <h3 class="detail__h3">AVAILABILITY:</h3>
+                    <ul class="detail__ul">
+                        <li>Monday: Yes</li>
+                        <li>Tuesday: Yes</li>
+                        <li>Wednesday: Yes</li>
+                        <li>Thursday: Yes</li>
+                        <li>Friday: Yes</li>
+                        <li>Saturday: No</li>
+                        <li>Sunday: No</li>
+                    </ul>
+                    <div class="detail__bottom">
+                        <i class="detail__bottom-call fas fa-phone"></i>
+                        <i class="detail__bottom-envelope far fa-envelope"></i>
+                    </div>
+                    <button class="detail__mAbook" href="#">Place your reservation!</button>
+                </main>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="yourSpots">
+            <div class="header">
+                <header class="header__container">
+                    <div id="mySidepanel" class="header__menu">
+                        <a href="javascript:void(0)" class="header__menu-close" onclick="closeNav()">X</a>
+                        <a href="#">New Search</a>
+                        <a href="#">Add a Listing</a>
+                        <a href="#">Your Listings</a>
+                        <a href="#">Manage Your Requests</a>
+                        <a href="#">Your Bookings</a>
+                    </div>
+                    <i onclick="openNav()" class="header__menu-open fas fa-bars"></i>
+                        <script>
+                        function openNav() {
+                        document.getElementById("mySidepanel").style.width = "250px";
+                        }
+                        
+                        function closeNav() {
+                        document.getElementById("mySidepanel").style.width = "0";
+                        }
+                        </script>
+                    <div class="header__logo">
+                        <img src="./images/logo.png" alt="ShareMySpotLogo">
+                    </div>     
+                    <div class="header__account">
+                        <i class="header__account-logout fas fa-power-off"></i>
+                        <i class="header__account-user fas fa-user"></i>
+                    </div>     
+                </header>
+            </div>
+            <main>
+                <div class="yourSpots__container" >
+                    <img class="yourSpots__photo" src="https://fakeimg.pl/350x350/?text=Photos">
+                    <h4 class="yourSpots__h4">Garage en calle Arenys 123, Sant Cugat del Valles</h4>
+                    <h2 class="yourSpots__h2">12 €/Estadia</h2><span>(*) Ver condiciones</span>
+                    <i class="yourSpots__bottom-edit fas fa-edit"></i>
+                </div>
+                <div class="yourSpots__container" >
+                    <img class="yourSpots__photo" src="https://fakeimg.pl/350x350/?text=Photos">
+                    <h4 class="yourSpots__h4">Garage en calle Arenys 123, Sant Cugat del Valles</h4>
+                    <h2 class="yourSpots__h2">12 €/Estadia</h2><span>(*) Ver condiciones</span>
+                    <i class="yourSpots__bottom-edit fas fa-edit"></i>
+                </div>
+                <div class="yourSpots__container" >
+                    <img class="yourSpots__photo" src="https://fakeimg.pl/350x350/?text=Photos">
+                    <h4 class="yourSpots__h4">Garage en calle Arenys 123, Sant Cugat del Valles</h4>
+                    <h2 class="yourSpots__h2">12 €/Estadia</h2><span>(*) Ver condiciones</span>
+                    <i class="yourSpots__bottom-edit fas fa-edit"></i>
+                </div>
+            </main>
+        </div>
+        <br>
+        <br>
+        <div class="manageRequests">
+            <div class="header">
+                <header class="header__container">
+                    <div id="mySidepanel" class="header__menu">
+                        <a href="javascript:void(0)" class="header__menu-close" onclick="closeNav()">X</a>
+                        <a href="#">New Search</a>
+                        <a href="#">Add a Listing</a>
+                        <a href="#">Your Listings</a>
+                        <a href="#">Manage Your Requests</a>
+                        <a href="#">Your Bookings</a>
+                    </div>
+                    <i onclick="openNav()" class="header__menu-open fas fa-bars"></i>
+                        <script>
+                        function openNav() {
+                        document.getElementById("mySidepanel").style.width = "250px";
+                        }
+                        
+                        function closeNav() {
+                        document.getElementById("mySidepanel").style.width = "0";
+                        }
+                        </script>
+                    <div class="header__logo">
+                        <img src="./images/logo.png" alt="ShareMySpotLogo">
+                    </div>     
+                    <div class="header__account">
+                        <i class="header__account-logout fas fa-power-off"></i>
+                        <i class="header__account-user fas fa-user"></i>
+                    </div>     
+                </header>
+            </div>
+            <main>
+                <div class="manageRequests__container">
+                    <h3 class="manageRequests__h3">SOMEONE HAS REQUESTED TO BOOK YOUR PARKING SPOT:</h3>
+                    <p>User: "USER NAME HERE" has requested a reservation from your listing: "YOUR LISTING HERE".</p>
+                    <div class="manageRequests__bottom">
+                        <button class="manageRequests__buttons" href="#">Accept Request</button>
+                        <button class="manageRequests__buttons" href="#">Decline Request</button>                    
+                    </div>
+                </div>
+            </main>
+        </div>
+        <br>
+        <br>
+        <div class="yourBookings">
+            <div class="header">
+                <header class="header__container">
+                    <div id="mySidepanel" class="header__menu">
+                        <a href="javascript:void(0)" class="header__menu-close" onclick="closeNav()">X</a>
+                        <a href="#">New Search</a>
+                        <a href="#">Add a Listing</a>
+                        <a href="#">Your Listings</a>
+                        <a href="#">Manage Your Requests</a>
+                        <a href="#">Your Bookings</a>
+                    </div>
+                    <i onclick="openNav()" class="header__menu-open fas fa-bars"></i>
+                        <script>
+                        function openNav() {
+                        document.getElementById("mySidepanel").style.width = "250px";
+                        }
+                        
+                        function closeNav() {
+                        document.getElementById("mySidepanel").style.width = "0";
+                        }
+                        </script>
+                    <div class="header__logo">
+                        <img src="./images/logo.png" alt="ShareMySpotLogo">
+                    </div>     
+                    <div class="header__account">
+                        <i class="header__account-logout fas fa-power-off"></i>
+                        <i class="header__account-user fas fa-user"></i>
+                    </div>     
+                </header>
+            </div>
+            <main>
+                <div class="yourBookings__container">
+                    <h3 class="yourBookings__h3">YOU HAVE MADE A RESERVATION:</h3>
+                    <p>Your reservation to: "YOUR LISTING TO BE BOOKED HERE" from "START HERE" to "END HERE" is awaiting confirmation from the publisher.</p>
+                    <p>Please wait up now to hear back from him.</p>
+                    <p>In case 24hs go by and you still haven't heard from him, feel free to call or send him an e-mail using the buttons located down below.</p>
+                    <div class="yourBookings__bottom">
+                        <i class="yourBookings__buttons-call fas fa-phone"></i>
+                        <i class="yourBookings__buttons-envelope far fa-envelope"></i>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
